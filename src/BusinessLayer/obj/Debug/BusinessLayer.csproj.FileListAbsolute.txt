@@ -16,3 +16,12 @@ D:\Projekti\si2023-projekat-restoran\src\BusinessLayer\obj\Debug\BusinessLayer.c
 C:\Users\lazon\OneDrive\Desktop\si2023-projekat-restoran\src\BusinessLayer\bin\Debug\DataAccessLayer.dll
 C:\Users\lazon\OneDrive\Desktop\si2023-projekat-restoran\src\BusinessLayer\bin\Debug\DataAccessLayer.pdb
 C:\Users\lazon\OneDrive\Desktop\si2023-projekat-restoran\src\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\BusinessLayer\obj\Debug\BusinessLayer.pdb

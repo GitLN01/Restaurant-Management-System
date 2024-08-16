@@ -10,3 +10,9 @@ D:\Projekti\si2023-projekat-restoran\src\DataAccessLayer\obj\Debug\DataAccessLay
 D:\Projekti\si2023-projekat-restoran\src\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 D:\Projekti\si2023-projekat-restoran\src\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 D:\Projekti\si2023-projekat-restoran\src\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\lazon\OneDrive\Desktop\Restaurant-Management-System\src\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

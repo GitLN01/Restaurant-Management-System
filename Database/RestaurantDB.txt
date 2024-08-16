@@ -1,142 +1,104 @@
--- tabela Items -- 
-
+-- Tabela Items
 CREATE TABLE [dbo].[Items]
 (
-	[item_id] INT IDENTITY (1, 1) NOT NULL,
+    [item_id] INT IDENTITY (1, 1) NOT NULL,
     [name] NVARCHAR(50) NOT NULL, 
     [price] DECIMAL(18, 2) NOT NULL, 
     [category] NVARCHAR(50) NOT NULL,
-	PRIMARY KEY CLUSTERED ([item_id] ASC)
-)
-
+    PRIMARY KEY CLUSTERED ([item_id] ASC)
+);
 
 SET IDENTITY_INSERT [dbo].[Items] ON
 INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (1, N'Pizza', CAST(3.99 AS Decimal(18, 2)), N'Junk')
-INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (3, N'Cheesburger', CAST(3.79 AS Decimal(18, 2)), N'Junk')
-INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (4, N'Salad', CAST(2.89 AS Decimal(18, 2)), N'Vegeterian')
-SET IDENTITY_INSERT [dbo].[Items] OFF
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (2, N'Cheeseburger', CAST(3.79 AS Decimal(18, 2)), N'Junk')
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (3, N'Salad', CAST(2.89 AS Decimal(18, 2)), N'Vegetarian')
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (4, N'Hamburger', CAST(2.99 AS Decimal(18, 2)), N'Junk')
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (5, N'Ceasar Salad', CAST(5.99 AS Decimal(18, 2)), N'Vegeterian')
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (6, N'French Fries', CAST(0.99 AS Decimal(18, 2)), N'Junk')
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (7, N'Steak', CAST(6.99 AS Decimal(18, 2)), N'Meat')
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (8, N'Salmon', CAST(3.99 AS Decimal(18, 2)), N'Meat')
+SET IDENTITY_INSERT [dbo].[Items] OFF;
 
 
 
--- tabela Customers -- 
-
+-- Tabela Customers
 CREATE TABLE [dbo].[Customers]
 (
-	[customer_id] INT IDENTITY (1, 1) NOT NULL, 
+    [customer_id] INT IDENTITY (1, 1) NOT NULL, 
     [name] NVARCHAR(50) NOT NULL, 
     [email] NVARCHAR(50) NOT NULL, 
     [password] NVARCHAR(50) NOT NULL, 
-    [contact] NVARCHAR(50) NOT NULL
-	PRIMARY KEY CLUSTERED ([customer_id] ASC)
-)
-
+    [contact] NVARCHAR(50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([customer_id] ASC)
+);
 
 SET IDENTITY_INSERT [dbo].[Customers] ON
-INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [contact]) VALUES (1, N'Bojan', N'bojan@gmail.com', N'boki123', N'+(381)6012345678')
-INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [contact]) VALUES (4, N'Sanja', N'sanja@gmail.com', N'sanja456', N'+(381)6045698725')
-SET IDENTITY_INSERT [dbo].[Customers] OFF
+INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [contact]) VALUES (1, N'Lazar', N'lazar@gmail.com', N'lazar123', N'06012345678')
+INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [contact]) VALUES (2, N'Johnny', N'johnny@gmail.com', N'johnny123', N'06045698725')
+INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [contact]) VALUES (3, N'Daniel', N'daniel@gmail.com', N'daniel123', N'06345698312')
+INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [contact]) VALUES (4, N'Sarah', N'sarah@gmail.com', N'sarah123', N'06245632725')
+SET IDENTITY_INSERT [dbo].[Customers] OFF;
 
 
-
-
--- tabela Reservations -- 
-
+-- Tabela Reservations
 CREATE TABLE [dbo].[Reservations]
 (
-	[reservation_id] INT IDENTITY (1, 1) NOT NULL, 
+    [reservation_id] INT IDENTITY (1, 1) NOT NULL, 
     [customer_id] INT NOT NULL, 
     [name] NVARCHAR(50) NOT NULL, 
     [number_of_customers] INT NOT NULL, 
     [date] DATETIME NOT NULL,
-	PRIMARY KEY CLUSTERED ([reservation_id] ASC, customer_id), 
-	CONSTRAINT [FK_customer_id] FOREIGN KEY ([customer_id]) 
-	REFERENCES [dbo].[Customers] ([customer_id])
+    PRIMARY KEY CLUSTERED ([reservation_id] ASC), 
+    CONSTRAINT [FK_customer_id] FOREIGN KEY ([customer_id]) 
+    REFERENCES [dbo].[Customers] ([customer_id])
 );
 
-
 SET IDENTITY_INSERT [dbo].[Reservations] ON
-INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (3, 1, N'Non smoking', 4, N'2024-08-31 00:00:00')
-INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (5, 4, N'Smoking', 3, N'2024-08-08 20:00:00')
-SET IDENTITY_INSERT [dbo].[Reservations] OFF
+INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (1, 1, N'Non smoking', 4, N'2024-08-31 00:00:00');
+INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (2, 2, N'Smoking', 3, N'2024-08-08 20:00:00');
+INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (3, 4, N'VIP section', 2, N'2024-08-09 19:00:00');
+INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (4, 3, N'Family', 6, N'2024-08-15 18:00:00');
+SET IDENTITY_INSERT [dbo].[Reservations] OFF;
 
 
-
--- tabela Orders -- 
-
+-- Tabela Orders
 CREATE TABLE [dbo].[Orders]
 (
-	[order_id] INT IDENTITY (1, 1) NOT NULL, 
-	[customer_id] INT NOT NULL,
+    [order_id] INT IDENTITY (1, 1) NOT NULL, 
+    [customer_id] INT NOT NULL,
     [time] DATETIME NOT NULL, 
-    [table_number] INT NOT NULL
-	PRIMARY KEY CLUSTERED ([order_id] ASC, customer_id), 
-	CONSTRAINT [FK_customer_id1] FOREIGN KEY ([customer_id]) 
-	REFERENCES [dbo].[Customers] ([customer_id])
-)
-
+    [table_number] INT NOT NULL,
+    PRIMARY KEY CLUSTERED ([order_id] ASC), 
+    CONSTRAINT [FK_customer_id1] FOREIGN KEY ([customer_id]) 
+    REFERENCES [dbo].[Customers] ([customer_id])
+);
 
 SET IDENTITY_INSERT [dbo].[Orders] ON
-INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (1, 1, N'2024-01-06 19:20:20', 5)
-INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (2, 4, N'2024-01-08 16:10:10', 2)
-SET IDENTITY_INSERT [dbo].[Orders] OFF
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (1, 1, N'2024-01-06 19:20:20', 5);
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (2, 4, N'2024-01-08 16:10:10', 2);
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (3, 3, N'2024-01-12 18:45:00', 3);
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (4, 2, N'2024-02-01 12:30:00', 1);
+SET IDENTITY_INSERT [dbo].[Orders] OFF;
 
 
-
--- tabela Order_items -- 
-
+-- Tabela Order_items
 CREATE TABLE [dbo].[Order_items]
 (
-	[order_item_id] INT IDENTITY (1, 1) NOT NULL, 
-    [customer_id] INT NOT NULL, 
+    [order_item_id] INT IDENTITY (1, 1) NOT NULL, 
     [order_id] INT NOT NULL, 
     [item_id] INT NOT NULL, 
     [quantity] INT NOT NULL, 
-    [desctiption] NVARCHAR(100) NULL
-	PRIMARY KEY CLUSTERED ([order_item_id] ASC, customer_id, order_id, item_id),
-	CONSTRAINT [FK_order_id] FOREIGN KEY ([order_id], [customer_id]) 
-	REFERENCES [dbo].[Orders] ([order_id], [customer_id]),
-	CONSTRAINT [FK_item_id] FOREIGN KEY ([item_id]) 
-	REFERENCES [dbo].[Items] ([item_id])
-)
-
+    [description] NVARCHAR(100) NULL,
+    PRIMARY KEY CLUSTERED ([order_item_id] ASC),
+    CONSTRAINT [FK_order_id] FOREIGN KEY ([order_id]) 
+    REFERENCES [dbo].[Orders] ([order_id]),
+    CONSTRAINT [FK_item_id] FOREIGN KEY ([item_id]) 
+    REFERENCES [dbo].[Items] ([item_id])
+);
 
 SET IDENTITY_INSERT [dbo].[Order_items] ON
-INSERT INTO [dbo].[Order_items] ([order_item_id], [customer_id], [order_id], [item_id], [quantity], [desctiption]) VALUES (1, 1, 1, 1, 7, N'Large portion without mayo!')
-INSERT INTO [dbo].[Order_items] ([order_item_id], [customer_id], [order_id], [item_id], [quantity], [desctiption]) VALUES (6, 4, 2, 3, 3, N'')
-INSERT INTO [dbo].[Order_items] ([order_item_id], [customer_id], [order_id], [item_id], [quantity], [desctiption]) VALUES (7, 1, 1, 4, 1, N'Please add grilled bacon in salad!')
-SET IDENTITY_INSERT [dbo].[Order_items] OFF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (1, 1, 1, 7, N'Large portion without mayo!')
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (2, 2, 3, 3, N'Vegeterian classic.')
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (3, 3, 2, 1, N'Please add grilled bacon in salad!')
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (4, 4, 7, 2, N'The best salmon in our city!')
+SET IDENTITY_INSERT [dbo].[Order_items] OFF;
