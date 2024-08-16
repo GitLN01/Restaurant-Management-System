@@ -39,8 +39,6 @@ namespace DataAccessLayer
                 return results;
         }
 
-        /* Method that adds elements in table Customers */
-
         public int InsertCustomers(Customers c)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))

@@ -28,11 +28,10 @@ namespace DataAccessLayer
                 {
                     Order_Items o = new Order_Items();
                     o.order_item_id = sqlDataReader.GetInt32(0);
-                    o.customer_id = sqlDataReader.GetInt32(1);
-                    o.order_id = sqlDataReader.GetInt32(2);
-                    o.item_id = sqlDataReader.GetInt32(3);
-                    o.quantity = sqlDataReader.GetInt32(4);
-                    o.description = sqlDataReader.GetString(5);
+                    o.order_id = sqlDataReader.GetInt32(1);
+                    o.item_id = sqlDataReader.GetInt32(2);
+                    o.quantity = sqlDataReader.GetInt32(3);
+                    o.description = sqlDataReader.IsDBNull(4) ? null : sqlDataReader.GetString(4);
 
                     results.Add(o);
                 }
@@ -40,7 +39,6 @@ namespace DataAccessLayer
             return results;
         }
 
-        /* Method that adds elements in table Order_items */
         public int InsertOrderItems(Order_Items o)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))
@@ -48,9 +46,8 @@ namespace DataAccessLayer
                 sqlConnection.Open();
                 SqlCommand sqlCommand = new SqlCommand();
                 sqlCommand.Connection = sqlConnection;
-                sqlCommand.CommandText = "INSERT INTO Order_items VALUES (@CustomerID, @OrderID, @ItemID, @Quantity, @Description)";
+                sqlCommand.CommandText = "INSERT INTO Order_items (order_id, item_id, quantity, description) VALUES (@OrderID, @ItemID, @Quantity, @Description)";
 
-                sqlCommand.Parameters.AddWithValue("@CustomerID", o.customer_id);
                 sqlCommand.Parameters.AddWithValue("@OrderID", o.order_id);
                 sqlCommand.Parameters.AddWithValue("@ItemID", o.item_id);
                 sqlCommand.Parameters.AddWithValue("@Quantity", o.quantity);
@@ -60,7 +57,6 @@ namespace DataAccessLayer
             }
         }
 
-        /* Method that updates elements in table Order_items */
         public int UpdateOrderItems(Order_Items o)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))
@@ -81,8 +77,6 @@ namespace DataAccessLayer
             }
         }
 
-
-        /* Method that deletes elements from table Order_items */
         public int DeleteOrderItems(Order_Items o)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))

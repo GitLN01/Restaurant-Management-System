@@ -38,7 +38,6 @@ namespace DataAccessLayer
             return results;
         }
 
-        /* Method that adds elements in table Orders */
         public int InsertOrders(Orders o)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))
@@ -56,7 +55,6 @@ namespace DataAccessLayer
             }
         }
 
-        /* Method that updates elements in table Orders */
         public int UpdateOrders(Orders o)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))
@@ -75,7 +73,6 @@ namespace DataAccessLayer
             }
         }
 
-        /* Method that deletes elements from table Orders, based on its id */
         public int DeleteOrders(Orders o)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))

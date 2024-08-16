@@ -39,7 +39,6 @@ namespace DataAccessLayer
             return results;
         }
 
-        /* Method that adds elements in table Reservations */
         public int InsertReservations(Reservations r)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))
@@ -58,7 +57,6 @@ namespace DataAccessLayer
             }
         }
 
-        /* Method that updates elements in table Reservations */
         public int UpdateReservations(Reservations r)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))
@@ -78,7 +76,6 @@ namespace DataAccessLayer
             }
         }
 
-        /* Method that deletes elements from table Reservations */
         public int DeleteReservations(Reservations r)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connectionString))
@@ -91,7 +88,5 @@ namespace DataAccessLayer
                 return sqlCommand.ExecuteNonQuery();
             }
         }
-
-
     }
 }
