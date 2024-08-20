@@ -1,4 +1,4 @@
--- Tabela Items
+-- Table Items
 CREATE TABLE [dbo].[Items]
 (
     [item_id] INT IDENTITY (1, 1) NOT NULL,
@@ -17,11 +17,13 @@ INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (5, N'
 INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (6, N'French Fries', CAST(0.99 AS Decimal(18, 2)), N'Junk')
 INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (7, N'Steak', CAST(6.99 AS Decimal(18, 2)), N'Meat')
 INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (8, N'Salmon', CAST(3.99 AS Decimal(18, 2)), N'Meat')
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (9, N'Cola', CAST(1.99 AS Decimal(18, 2)), N'Drink')
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (10, N'Soda', CAST(0.99 AS Decimal(18, 2)), N'Drink')
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (11, N'Water', CAST(0.49 AS Decimal(18, 2)), N'Drink')
+INSERT INTO [dbo].[Items] ([item_id], [name], [price], [category]) VALUES (12, N'Pepsi', CAST(1.89 AS Decimal(18, 2)), N'Drink')
 SET IDENTITY_INSERT [dbo].[Items] OFF;
 
-
-
--- Tabela Customers
+-- Table Customers
 CREATE TABLE [dbo].[Customers]
 (
     [customer_id] INT IDENTITY (1, 1) NOT NULL, 
@@ -37,10 +39,10 @@ INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [cont
 INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [contact]) VALUES (2, N'Johnny', N'johnny@gmail.com', N'johnny123', N'06045698725')
 INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [contact]) VALUES (3, N'Daniel', N'daniel@gmail.com', N'daniel123', N'06345698312')
 INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [contact]) VALUES (4, N'Sarah', N'sarah@gmail.com', N'sarah123', N'06245632725')
+INSERT INTO [dbo].[Customers] ([customer_id], [name], [email], [password], [contact]) VALUES (5, N'milos', N'milos@gmail.com', N'milos123', N'06533555364')
 SET IDENTITY_INSERT [dbo].[Customers] OFF;
 
-
--- Tabela Reservations
+-- Table Reservations
 CREATE TABLE [dbo].[Reservations]
 (
     [reservation_id] INT IDENTITY (1, 1) NOT NULL, 
@@ -54,14 +56,15 @@ CREATE TABLE [dbo].[Reservations]
 );
 
 SET IDENTITY_INSERT [dbo].[Reservations] ON
-INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (1, 1, N'Non smoking', 4, N'2024-08-31 00:00:00');
-INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (2, 2, N'Smoking', 3, N'2024-08-08 20:00:00');
-INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (3, 4, N'VIP section', 2, N'2024-08-09 19:00:00');
-INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (4, 3, N'Family', 6, N'2024-08-15 18:00:00');
+INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (1, 1, N'Non smoking', 4, N'2024-08-31 00:00:00')
+INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (2, 2, N'Smoking', 3, N'2024-08-08 20:00:00')
+INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (3, 4, N'VIP section', 2, N'2024-08-09 19:00:00')
+INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (4, 3, N'Family', 6, N'2024-08-15 18:00:00')
+INSERT INTO [dbo].[Reservations] ([reservation_id], [customer_id], [name], [number_of_customers], [date]) VALUES (5, 5, N'Non smoking', 5, N'2024-08-30 12:30:13')
 SET IDENTITY_INSERT [dbo].[Reservations] OFF;
 
 
--- Tabela Orders
+-- Table Orders
 CREATE TABLE [dbo].[Orders]
 (
     [order_id] INT IDENTITY (1, 1) NOT NULL, 
@@ -74,14 +77,20 @@ CREATE TABLE [dbo].[Orders]
 );
 
 SET IDENTITY_INSERT [dbo].[Orders] ON
-INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (1, 1, N'2024-01-06 19:20:20', 5);
-INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (2, 4, N'2024-01-08 16:10:10', 2);
-INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (3, 3, N'2024-01-12 18:45:00', 3);
-INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (4, 2, N'2024-02-01 12:30:00', 1);
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (1, 1, N'2024-01-06 19:20:20', 5)
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (2, 4, N'2024-01-08 16:10:10', 2)
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (3, 3, N'2024-01-12 18:45:00', 3)
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (4, 2, N'2024-02-01 12:30:00', 1)
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (5, 1, N'2024-08-16 22:05:06', 9)
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (6, 1, N'2024-08-16 22:05:40', 1)
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (7, 1, N'2024-08-16 22:20:24', 1)
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (8, 1, N'2024-08-16 22:20:56', 2)
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (9, 1, N'2024-08-16 22:27:33', 2)
+INSERT INTO [dbo].[Orders] ([order_id], [customer_id], [time], [table_number]) VALUES (10, 5, N'2024-08-16 22:30:22', 1)
 SET IDENTITY_INSERT [dbo].[Orders] OFF;
 
 
--- Tabela Order_items
+-- Table Order_items
 CREATE TABLE [dbo].[Order_items]
 (
     [order_item_id] INT IDENTITY (1, 1) NOT NULL, 
@@ -101,4 +110,11 @@ INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quanti
 INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (2, 2, 3, 3, N'Vegeterian classic.')
 INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (3, 3, 2, 1, N'Please add grilled bacon in salad!')
 INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (4, 4, 7, 2, N'The best salmon in our city!')
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (5, 7, 1, 2, N'')
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (6, 8, 5, 5, N'')
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (7, 8, 3, 3, N'')
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (8, 8, 2, 3, N'')
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (9, 9, 1, 2, N'')
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (10, 9, 3, 2, N'')
+INSERT INTO [dbo].[Order_items] ([order_item_id], [order_id], [item_id], [quantity], [description]) VALUES (11, 10, 6, 2, N'')
 SET IDENTITY_INSERT [dbo].[Order_items] OFF;
