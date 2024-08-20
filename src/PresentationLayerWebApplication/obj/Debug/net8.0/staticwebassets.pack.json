@@ -5,6 +5,66 @@
       "PackagePath": "staticwebassets\\PresentationLayerWebApplication.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\boomerangLogo.png",
+      "PackagePath": "staticwebassets\\Content\\boomerangLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\home.png",
+      "PackagePath": "staticwebassets\\Content\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\homelogo.png",
+      "PackagePath": "staticwebassets\\Content\\homelogo.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\knife-fork-svgrepo-com.png",
+      "PackagePath": "staticwebassets\\Content\\knife-fork-svgrepo-com.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\lock.png",
+      "PackagePath": "staticwebassets\\Content\\lock.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\logout.png",
+      "PackagePath": "staticwebassets\\Content\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\mail.png",
+      "PackagePath": "staticwebassets\\Content\\mail.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\menu.png",
+      "PackagePath": "staticwebassets\\Content\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\menu1.png",
+      "PackagePath": "staticwebassets\\Content\\menu1.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\phone.png",
+      "PackagePath": "staticwebassets\\Content\\phone.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\reservation.png",
+      "PackagePath": "staticwebassets\\Content\\reservation.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\ring.png",
+      "PackagePath": "staticwebassets\\Content\\ring.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\ringlogo.png",
+      "PackagePath": "staticwebassets\\Content\\ringlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\user.png",
+      "PackagePath": "staticwebassets\\Content\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\Content\\user2.png",
+      "PackagePath": "staticwebassets\\Content\\user2.png"
+    },
+    {
       "Id": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

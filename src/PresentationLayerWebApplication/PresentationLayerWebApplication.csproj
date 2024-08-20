@@ -6,4 +6,22 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Content\boomerangLogo.png" />
+    <None Include="wwwroot\Content\home.png" />
+    <None Include="wwwroot\Content\homelogo.png" />
+    <None Include="wwwroot\Content\knife-fork-svgrepo-com.png" />
+    <None Include="wwwroot\Content\lock.png" />
+    <None Include="wwwroot\Content\logout.png" />
+    <None Include="wwwroot\Content\mail.png" />
+    <None Include="wwwroot\Content\menu.png" />
+    <None Include="wwwroot\Content\menu1.png" />
+    <None Include="wwwroot\Content\phone.png" />
+    <None Include="wwwroot\Content\reservation.png" />
+    <None Include="wwwroot\Content\ring.png" />
+    <None Include="wwwroot\Content\ringlogo.png" />
+    <None Include="wwwroot\Content\user.png" />
+    <None Include="wwwroot\Content\user2.png" />
+  </ItemGroup>
+
 </Project>

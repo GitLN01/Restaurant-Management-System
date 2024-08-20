@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -43,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Sidebar.cshtml",
               "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Shared\\_Sidebar.cshtml",
               "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Shared\\_Sidebar.cshtml",
               "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Shared\\_Sidebar.cshtml",
               "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Shared\\_Sidebar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-20T18:43:16.091Z",
               "EditorCaption": ""
@@ -69,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-20T18:30:57.955Z",
               "EditorCaption": ""
