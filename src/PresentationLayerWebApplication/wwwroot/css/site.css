@@ -1,4 +1,3 @@
-
 body, html {
     margin: 0;
     padding: 0;
@@ -16,28 +15,29 @@ body, html {
     padding-top: 20px;
 }
 
-.sidebar a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-}
+    .sidebar a {
+        display: block;
+        padding: 15px 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
 
-.sidebar a:hover {
-    background-color: #334499;
-}
+        .sidebar a:hover {
+            background-color: #334499;
+        }
 
-.sidebar .logo img {
-    width: 80%;
-    margin: 0 auto;
-    display: block;
-    padding-bottom: 20px;
-}
+    .sidebar .logo img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 20px;
+    }
 
 .content {
     margin-left: 30%;
     padding: 20px;
+    text-align: center;
 }
 
 .main-content {
@@ -49,7 +49,7 @@ body, html {
     align-items: center;
     color: white;
     text-align: center;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .content-buttons {
@@ -60,26 +60,61 @@ body, html {
     margin: 0 auto;
 }
 
-.content-buttons div {
-    background-color: #0000ff;
-    color: white;
-    border: none;
-    padding: 30px;
-    text-align: center;
-    font-size: 1.5em;
-    cursor: pointer;
-    width: 250px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
+    .content-buttons div {
+        background-color: #0000ff;
+        color: white;
+        border: none;
+        padding: 30px;
+        text-align: center;
+        font-size: 1.5em;
+        cursor: pointer;
+        width: 250px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+        .content-buttons div img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+
+/* Updated table styling */
+.table {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f1f1f1;
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+    .table th, .table td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
 
-.content-buttons div img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 15px;
+.table-bordered {
+    border: 2px solid #001177;
+}
+
+.table th {
+    background-color: #334499;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.table td {
+    background-color: #e7e7e7;
+}
+
+.table tbody tr:hover {
+    background-color: #d0d0d0;
 }

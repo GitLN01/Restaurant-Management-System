@@ -21,7 +21,24 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "order",
+    pattern: "Order/{action=Index}/{id?}",
+    defaults: new { controller = "Order" });
+
+app.MapControllerRoute(
+    name: "reservation",
+    pattern: "Reservation/{action=Index}/{id?}",
+    defaults: new { controller = "Reservation" });
+
+app.MapControllerRoute(
+    name: "menu",
+    pattern: "Menu/{action=Index}/{id?}",
+    defaults: new { controller = "Menu" });
+
+// Default route
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 app.Run();
