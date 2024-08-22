@@ -4,23 +4,36 @@
     ViewData["Title"] = "Menu";
 }
 
-<h1>Menu</h1>
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>Item ID</th>
-            <th>Item Name</th>
-            <th>Price</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+
+<div class="content">
+    <h1>Menu</h1>
+    <p>
+        <div class="table-controls">
+            <input type="search" id="menuSearch" placeholder="Search..." onkeyup="searchTable('menuSearch', 'menuTable')">
+            <select id="menuSort" onchange="sortTable('menuTable', this.selectedIndex)">
+                <option value="0">Sort by Item ID</option>
+                <option value="1">Sort by Name</option>
+                <option value="2">Sort by Price</option>
+            </select>
+        </div>
+    </p>
+    <table id="menuTable" class="table table-bordered">
+        <thead>
             <tr>
-                <td>@item.item_id</td>
-                <td>@item.name</td>
-                <td>@item.price.ToString("C")</td> 
+                <th>Item ID</th>
+                <th>Item Name</th>
+                <th>Price</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.item_id</td>
+                    <td>@item.name</td>
+                    <td>@item.price.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

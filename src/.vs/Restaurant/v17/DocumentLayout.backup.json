@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -33,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "PresentationLayerWebApplication\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T22:37:19.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Program.cs",
-              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Program.cs",
-              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Program.cs",
-              "RelativeToolTip": "PresentationLayerWebApplication\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T22:27:05.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
-              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
-              "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T22:07:45.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Reservation\\Index.cshtml",
-              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Reservation\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Reservation\\Index.cshtml",
-              "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Reservation\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T22:06:22.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Order\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T22:05:04.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "PresentationLayerWebApplication\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\css\\site.css",
               "RelativeToolTip": "PresentationLayerWebApplication\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAQwIwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-20T18:44:53.391Z",
+              "WhenOpened": "2024-08-22T23:04:26.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Reservation\\Index.cshtml",
+              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Reservation\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Reservation\\Index.cshtml",
+              "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Reservation\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T22:34:03.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T22:33:54.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Sidebar.cshtml",
-              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Shared\\_Sidebar.cshtml",
-              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Shared\\_Sidebar.cshtml",
-              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Shared\\_Sidebar.cshtml",
-              "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Shared\\_Sidebar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T18:43:16.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T18:40:07.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T18:30:57.955Z",
+              "WhenOpened": "2024-08-22T21:36:57.912Z",
               "EditorCaption": ""
             }
           ]
