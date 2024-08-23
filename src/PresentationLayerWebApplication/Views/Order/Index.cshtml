@@ -11,7 +11,8 @@
         <select id="orderSort" onchange="sortTable('orderTable', this.selectedIndex)">
             <option value="0">Sort by Order ID</option>
             <option value="1">Sort by Customer ID</option>
-            <option value="2">Sort by Order Time</option>
+            <option value="2">Sort by Table Number</option>
+            <option value="3">Sort by Order Time</option>
         </select>
     </div>
     <table id="orderTable" class="table table-bordered">
@@ -19,6 +20,7 @@
             <tr>
                 <th>Order ID</th>
                 <th>Customer ID</th>
+                <th>Table Number</th>
                 <th>Order Time</th>
             </tr>
         </thead>
@@ -28,6 +30,7 @@
                 <tr>
                     <td>@order.order_id</td>
                     <td>@order.customer_id</td>
+                    <td>@order.table_number</td>
                     <td>@order.time.ToString("yyyy-MM-dd HH:mm:ss")</td>
                 </tr>
             }
