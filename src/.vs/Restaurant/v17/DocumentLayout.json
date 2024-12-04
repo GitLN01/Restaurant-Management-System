@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9572DA60-7147-43B8-9438-D35DEF79C6D8}|PresentationLayerTest\\PresentationLayerTest.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayertest\\testreservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9572DA60-7147-43B8-9438-D35DEF79C6D8}|PresentationLayerTest\\PresentationLayerTest.csproj|solutionrelative:presentationlayertest\\testreservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayerwebapplication\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{24F42911-46A3-49D9-AE91-3C1B6D882A97}|PresentationLayerWebApplication\\PresentationLayerWebApplication.csproj|solutionrelative:presentationlayerwebapplication\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{3A7845C1-BC20-4E4C-9E04-7B2DFE6B0537}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayer\\reservationusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7845C1-BC20-4E4C-9E04-7B2DFE6B0537}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\reservationusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9572DA60-7147-43B8-9438-D35DEF79C6D8}|PresentationLayerTest\\PresentationLayerTest.csproj|c:\\users\\lazon\\onedrive\\desktop\\restaurant-management-system\\src\\presentationlayertest\\testformlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9572DA60-7147-43B8-9438-D35DEF79C6D8}|PresentationLayerTest\\PresentationLayerTest.csproj|solutionrelative:presentationlayertest\\testformlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestFormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerTest\\TestFormLogin.cs",
+              "RelativeDocumentMoniker": "PresentationLayerTest\\TestFormLogin.cs",
+              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerTest\\TestFormLogin.cs",
+              "RelativeToolTip": "PresentationLayerTest\\TestFormLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:44:41.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
-              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
-              "RelativeToolTip": "PresentationLayerWebApplication\\Views\\Menu\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T18:41:27.187Z",
+              "Title": "TestReservationForm.cs",
+              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerTest\\TestReservationForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayerTest\\TestReservationForm.cs",
+              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerTest\\TestReservationForm.cs",
+              "RelativeToolTip": "PresentationLayerTest\\TestReservationForm.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:41:51.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "PresentationLayerWebApplication\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayerWebApplication\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "PresentationLayerWebApplication\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-23T16:25:14.07Z",
+              "Title": "ReservationUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayer\\ReservationUserControl.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\ReservationUserControl.cs",
+              "ToolTip": "C:\\Users\\lazon\\OneDrive\\Desktop\\Restaurant-Management-System\\src\\PresentationLayer\\ReservationUserControl.cs",
+              "RelativeToolTip": "PresentationLayer\\ReservationUserControl.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAYwMQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:41:04.023Z",
               "EditorCaption": ""
             }
           ]
